@@ -1,6 +1,7 @@
 {
-  "name": "threatintel-pro",
-  "version": "0.1.0",
+  "name": "cybershield-threat-intel",
+  "version": "1.0.0",
+  "description": "Advanced Threat Intelligence Platform - Built for Hack with Hyderabad 2024",
   "private": true,
   "rocketCritical": {
     "dependencies": [

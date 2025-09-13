@@ -1,14 +1,15 @@
--- Final Fixed SQL Setup for Threat Intelligence Platform
--- Copy this entire content into Supabase SQL Editor
+-- CyberShield Database Schema
+-- Advanced Threat Intelligence Platform
+-- Built for Hack with Hyderabad 2024
 
--- 1. Create Types
+-- Create custom types for threat intelligence
 CREATE TYPE public.user_role AS ENUM ('leadership', 'analyst', 'operations');
 CREATE TYPE public.threat_severity AS ENUM ('low', 'medium', 'high', 'critical');
 CREATE TYPE public.threat_status AS ENUM ('active', 'monitoring', 'resolved', 'archived');
 CREATE TYPE public.investigation_status AS ENUM ('open', 'in_progress', 'closed');
 CREATE TYPE public.geographic_region AS ENUM ('north_america', 'south_america', 'europe', 'asia', 'africa', 'oceania', 'unknown');
 
--- 2. Create Tables
+-- Core database tables
 CREATE TABLE public.user_profiles (
     id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
     email TEXT NOT NULL UNIQUE,
