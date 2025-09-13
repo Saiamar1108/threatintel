@@ -83,17 +83,17 @@ const QuickActions = ({ onActionClick }) => {
   return (
     <div className="space-y-6">
       {/* Quick Actions Grid */}
-      <div className="bg-card border border-border rounded-lg p-6">
+      <div className="bg-card border border-border rounded-lg p-6 shadow-sm">
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-lg font-semibold text-foreground">Quick Actions</h3>
           <Button variant="ghost" size="icon" iconName="MoreHorizontal" />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-3">
           {quickActions?.map((action) => (
             <button
               key={action?.id}
               onClick={() => onActionClick(action?.id)}
-              className="flex items-start space-x-4 p-4 bg-muted/30 hover:bg-muted/50 rounded-lg transition-smooth text-left group"
+              className="flex items-start space-x-4 p-4 bg-muted/30 hover:bg-muted/50 rounded-lg transition-smooth text-left group w-full"
             >
               <div className={`flex items-center justify-center w-10 h-10 ${action?.color} rounded-lg text-white group-hover:scale-105 transition-transform`}>
                 <Icon name={action?.icon} size={20} />

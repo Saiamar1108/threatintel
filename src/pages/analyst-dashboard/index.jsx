@@ -365,7 +365,9 @@ const AnalystDashboard = () => {
                   activeFilters={filters}
                 />
               )}
-              <QuickActions onActionClick={handleActionClick} />
+              <div className="sticky top-24">
+                <QuickActions onActionClick={handleActionClick} />
+              </div>
             </div>
           </div>
         </div>
