@@ -58,8 +58,12 @@
   },
   "scripts": {
     "start": "vite",
+    "dev": "vite",
     "build": "vite build --sourcemap",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "setup": "./scripts/setup.sh",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint src --ext js,jsx --fix"
   },
   "eslintConfig": {
     "extends": [
