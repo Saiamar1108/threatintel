@@ -132,6 +132,6 @@
 
 ---
 
-**Built with ❤️ for Hack with Hyderabad 2024**
+**Built with passion  for Hack with Hyderabad 2024**
 
 *Empowering the future of cybersecurity through innovation and collaboration*

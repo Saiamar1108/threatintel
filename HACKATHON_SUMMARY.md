@@ -2,7 +2,7 @@
 
 ## 🎯 **Project Overview**
 
-**CyberShield** is an advanced threat intelligence platform built for **Hack with Hyderabad 2024**. It's a comprehensive, production-ready solution that revolutionizes how security teams detect, analyze, and respond to cyber threats.
+**CyberShield** is an advanced threat intelligence platform built for **Hack with Hyderabad 2025**. It's a comprehensive, production-ready solution that revolutionizes how security teams detect, analyze, and respond to cyber threats.
 
 ## ✅ **What We Accomplished**
 
